@@ -34,6 +34,7 @@ class _AuthScreenState extends State<AuthScreen> {
       return;
     }
 
+    //chekc
     _formKey.currentState!.save();
     try {
       if (_isLogin) {
