@@ -33,7 +33,7 @@ class App extends StatelessWidget {
           }
 
           if(snapshot.hasData) {
-            return const ChartScreen();
+            return const ChatScreen();
           }
           return const AuthScreen();
         },
